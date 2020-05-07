@@ -1,0 +1,7 @@
+Title,Question,Answer,Example,Tags
+Disjunkte mengder,"Hvis vi har to mengder, A og B, hva betyr det at de er disjunkte?",De har ingen elemnter til felles\nA ^ B = Ø,,disjunkte
+Uten elementer,En mengden med ingen elementer heter...,Den tomme mengden\nØ,Alle oddetal og alle partall er disjunte mengder,
+Parvis disjunkte,En gruppe mengder er parvis disjunkte hvis...,Ingen av ellemente inneholder det samme som noen av de andre elemtene,,disjunkte
+En oppdeling,En samling av mengder er en oppdeling av A hvis,Alle mengdene kombinert er A og ingen av mengdene inneholder en del av hverandre (parvis disjunkte),,disjunkte
+Potense Mengden,"Hva blir potensemengdene til {1,2}","{Ø}, {1}, {2}, {1,2}","Kan tenkes på som et valgtre. Du har 2 tall i mengden\nskal du inkludere 1: ja/nei, skal du inkludere 2: ja/nei",potens mengde
+Hvor mange,"I en potense mengde med n elementer, hvor mange delmengder er det",2^n elementer,,potens mengde

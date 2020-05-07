@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Flash cards</title>
+</head>
+<body>
+
+<!-- <button onclick="execute()">execute</button> -->
+    
+    <div id="card">
+
+        <p id="title">Parvis disjunkte</p>
+        
+        <p id="question", onclick="$(answer).css('max-height',  '300px')">Hvis vi har to mengder, <br> og B, hva betyr det at de er disjunkte?</p>
+
+
+        <p>&nbsp</p>
+
+
+        <p id="answer">De har ingen elemnter til felles
+        A ^ B = Ø</p>
+        
+        <p>&nbsp</p>
+
+        <div id="difficulties">
+            <p id="button1" class="button">EASY</p>
+            <p id="button2" class="button">OKAY</p>
+            <p id="button3" class="button">HARD</p>
+        </div>  
+
+
+    </div>
+
+
+</body>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <!-- import fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
+
+    <!-- import jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- import google api -->
+    <script src="https://apis.google.com/js/api.js"></script>
+
+    <!-- import js -->
+    <script src="script.js"></script>
+
+</html>
