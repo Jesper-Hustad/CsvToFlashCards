@@ -10,3 +10,9 @@ Simple static website to train on any topic with flash cards
 
 # Example
 [click here](https://jesper-hustad.github.io/CsvToFlashCards/.)
+
+# Features  
+* Very simple program
+* Will never get the 4 last flash cards on next card (smart randomness)  
+* Works on different screen sizes  
+* Writing question in a spreadsheet gives more controll
