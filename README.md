@@ -9,4 +9,4 @@ Simple static website to train on any topic with flash cards
 * Run website, trough Github pages or something
 
 # Example
-[click here](www.x.com)
+[click here](https://jesper-hustad.github.io/CsvToFlashCards/.)
