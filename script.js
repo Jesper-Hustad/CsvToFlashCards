@@ -7,6 +7,8 @@ var currentCard = 0
 previousCardBuffer = 4
 var lastCards = new Array(previousCardBuffer).fill(0);
 
+window.displayDescription = false
+
 
 $(document).ready(function() {
     $.ajax({
@@ -16,6 +18,23 @@ $(document).ready(function() {
         success: function(data) {processData(data);}
      });
 });
+
+window.addEventListener('touchstart', function onFirstTouch() {
+
+    
+    if(window.displayDescription){
+        newCard()
+    }else{
+        showDescription()
+    }
+    
+    window.displayDescription = !window.displayDescription
+
+    console.log("you clicked once")
+
+  }, false);
+
+
 
 function processData(allText) {
 
@@ -33,7 +52,11 @@ function processData(allText) {
     }
 }
 
-$(".button").click(function(){
+function showDescription(){
+    $(answer).css('max-height',  '300px')
+}
+
+function newCard(){
     $(answer).css('max-height',  '0px')
     $("#card").fadeToggle(100,function(){
         setTimeout(function(){
@@ -42,7 +65,9 @@ $(".button").click(function(){
         $("#card").fadeToggle(100);
     });
     
-});
+}
+
+
 
 
 function displayCard(index) {
