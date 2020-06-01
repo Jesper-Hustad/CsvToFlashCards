@@ -67,7 +67,7 @@ function newCard(){
 
 function displayCard(index) {
     $("#title").html(cards[index][getType("Title")])
-    $("#question").html(cards[index][getType("Question")])
+    $("#question").html(cards[index][getType("Question")]+ '?')
     $("#answer").html(cards[index][getType("Answer")])
     // document.getElementById("answer").style.maxHeight(0)
     
@@ -119,3 +119,7 @@ function shuffle(array) {
   
     return array;
   }
+
+  window.onload = function() {
+    this.newCard()
+  };
