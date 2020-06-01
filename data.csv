@@ -1,10 +1,8 @@
 Title,Question,Answer,Example,Tags
-Disjunkte mengder,"Hvis vi har to mengder, A og B, hva betyr det at de er disjunkte?",De har ingen elemnter til felles\nA ^ B = Ø,,disjunkte
-Uten elementer,En mengden med ingen elementer heter...,Den tomme mengden\nØ,Alle oddetal og alle partall er disjunte mengder,
-Parvis disjunkte,En gruppe mengder er parvis disjunkte hvis...,Ingen av ellemente inneholder det samme som noen av de andre elemtene,,disjunkte
-En oppdeling,En samling av mengder er en oppdeling av A hvis,Alle mengdene kombinert er A og ingen av mengdene inneholder en del av hverandre (parvis disjunkte),,disjunkte
-Potense Mengden,"Hva blir potensemengdene til {1,2}","{Ø}, {1}, {2}, {1,2}","Kan tenkes på som et valgtre. Du har 2 tall i mengden\nskal du inkludere 1: ja/nei, skal du inkludere 2: ja/nei",potens mengde
-Hvor mange,"I en potense mengde med n elementer, hvor mange delmengder er det",2^n elementer,,potens mengde
-Polar form,Hvordan skrives komplekse tall i polarform,Z = r * (cos θ + i sin θ),"r = sqrt(a^2 + b^2), bruk arctan^2 for å finne vinkel",komplekse
-Potens av polar form,"Hvis z = r(cos θ + i sin θ)
-\nHva er z^2",z^2\n= r^2(cos(θ + θ) + i sin(θ + θ))\n= r^2 * (cos(2θ) + i sin(2θ)),,
+Systemutviklingsmodeller metoder,Hva er noen modeller innen systemutvikling,"Tradisjonelle, Iterative eller evolusjonære, smidige/agile","Tradisjonelle er formelle og har stor vekt på dokumentasjon, planlegging og kontroll\nIterative eller evolusjonære kan begrense risiko ved å utvikle systemet bitvis, handler om hyppigere leveranser\nSmidige/agile metoder har vekt på god kommunikasjon og fleksibelt, det er svært hyppige delleveranser og er en metode med nær kontakt med kunde/produkteier",Systemutviklingsmodeller
+Systemutviklingsmodeller metoder,Hva er noen trekk innenfor tradisjonelle metoder,"- Formelle\n- Stor vekt på dokumentasjon, planlegging og kontroll",,
+Systemutviklingsmodeller metoder,Hva er noen trekk innenforIterative eller evolusjonære metoder,-	Begrense risiko ved å utvikle systemet bitvis\n-	Hyppigere leveranser,,
+Systemutviklingsmodeller metoder,Hva er noen trekk innenfor Smidige/agile metoder,"-        Vekt på god kommunikasjon, fleksibilitet\n-        Svært hyppige delleveranser\n-        Nær kontakt med kunde/produkteier",,
+systemutviklingsmodeller,Hva er fossefall modellen,En tradisjonell modell med klart definerte krav\nMetoden er tung på dokumentasjon\nMetoden er lite fleksibel inndeling i fastlagte steg\nDenne metoder gjør det vanskelig å etterkomme kundens skiftende krav\nMetoden burde bare brukes hvis kravene er tydelige og godt dokumenterte og lette å forstå,https://netmaking.no/Blogg/Smidig-vs.-fossefall-fordeler-og-ulemper,
+,Hva er Spiralmodell,"Det er et alternativ til de tradisjonelle systemutviklingsmodellene\nMetoden oppstod fordi man trengte å analysere risiko i store prosjekter med store investeringer\nMetoden er mer iterativ, sirkulær og repeterende enn fossefallsmodellen (tradisjonell)\nHandler om å vurdere andre alternativer",,
+,"Scrum metoden er populær, hva er kjennetegnene til denne metoden",Denne metodene er smidig og agile\nMetoden handler om å involvere kundene i prosessen\nHar hyppige delleveranser,En metodene som baserer seg på å lære gjennom prosessen og reflektere\nKan godt reagere på endringer\nSetter stor fokus på fungerende programvare,

@@ -19,9 +19,7 @@ $(document).ready(function() {
      });
 });
 
-window.addEventListener('touchstart', function onFirstTouch() {
-
-    
+$(document).on("keypress click", function (e) {
     if(window.displayDescription){
         newCard()
     }else{
@@ -31,9 +29,7 @@ window.addEventListener('touchstart', function onFirstTouch() {
     window.displayDescription = !window.displayDescription
 
     console.log("you clicked once")
-
-  }, false);
-
+});
 
 
 function processData(allText) {
@@ -56,6 +52,7 @@ function showDescription(){
     $(answer).css('max-height',  '300px')
 }
 
+
 function newCard(){
     $(answer).css('max-height',  '0px')
     $("#card").fadeToggle(100,function(){
@@ -66,8 +63,6 @@ function newCard(){
     });
     
 }
-
-
 
 
 function displayCard(index) {
